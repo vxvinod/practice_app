@@ -1,7 +1,10 @@
 PracticeApp::Application.routes.draw do
+  get "first_work/index"
+
   #get "wish/index"
   resources :wish, :only => [:index]
-
+  root :to => 'wish#index', :as=>'wish'
+  #resources :first_work, :only=>[:index] ,:as=>'first_work'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
