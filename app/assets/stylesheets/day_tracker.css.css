@@ -1,0 +1,12 @@
+#display{
+	height:50px;
+	width:200px;
+	border: 2px solid #aaa;
+	text-align: center;
+	background-color:orange;
+	border-radius: 5px;
+	font-family: 'Open Sans', arial, sans-serif;
+	font-size: 20px;
+	margin: auto;
+	
+}

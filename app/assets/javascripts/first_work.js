@@ -1,4 +1,4 @@
-(function wish(){
+(function (){
         var wishes=['hard code Ruby on rails developer','roaming round the world','keep your body fit'];
 
         var index =0;

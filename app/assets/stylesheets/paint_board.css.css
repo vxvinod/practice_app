@@ -1,0 +1,52 @@
+.color{
+	
+	height:50px;
+	width:50px;
+	border: 1px solid #aaa;
+	cursor:pointer;
+	margin-bottom:20px;
+	float :auto;
+}
+
+#red{
+	background-color:red;
+}
+
+
+#yellow{
+	background-color:yellow;
+}
+
+
+#blue{
+	background-color:blue;
+}
+
+#black{
+	background-color:black;
+}
+
+.row{
+	height:80px;
+	width:80px;
+	border: 1px solid #aaa;
+	margin-right: 50px;
+
+	
+}
+.row1{
+	float:right;
+}
+.row2{
+	float:right;
+}
+.row3{
+	float:right;
+}
+.row4{
+	float:right;
+}
+.color-block{
+	margin-right:500px;
+	top: -10px;
+}

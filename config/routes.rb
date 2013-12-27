@@ -6,6 +6,8 @@ PracticeApp::Application.routes.draw do
   root :to => 'wish#index', :as=>'wish'
   resources :first_work, :only=>[:index] ,:as=>'first_work'
   resources :random_background,:only=>[:index],:as=>'random_background'
+  resources :paint_board,:only=>[:index],:as=>'paint_board'
+  resources :day_tracker,:only=>[:index],:as=>'day_tracker'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
