@@ -8,6 +8,7 @@ PracticeApp::Application.routes.draw do
   resources :random_background,:only=>[:index],:as=>'random_background'
   resources :paint_board,:only=>[:index],:as=>'paint_board'
   resources :day_tracker,:only=>[:index],:as=>'day_tracker'
+  resources :drop_shadow,:only=>[:index],:as=>'drop_shadow'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

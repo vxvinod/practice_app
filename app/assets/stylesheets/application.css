@@ -11,3 +11,15 @@
  *= require_self
  *= require_tree .
  */
+
+#home{
+	height:50px;
+	width:80px;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 5px;
+	margin-: 100px;
+	border: 1px solid grey;
+	box-shadow: 5px 5px 5px grey;
+	border-radius: 5px ;
+}
