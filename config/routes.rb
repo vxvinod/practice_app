@@ -1,4 +1,6 @@
 PracticeApp::Application.routes.draw do
+  get "questions/index"
+
   #get "first_work/index"
 
   #get "wish/index"

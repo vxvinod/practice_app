@@ -1,0 +1,21 @@
+<div id="container">
+	<div id="header">
+		<%= link_to 'Make it snappy Q&A',questions_index_path%>
+	</div><!-- end header-->
+	<div id="nav">
+		<ul>
+			<li>
+				<%= link_to 'Home',questions_index_path%>
+			</li>
+		</ul>
+	</div><!--end nav -->
+	<div id ="content">
+		<%= flash.each do |key,value| %>
+		<p id="message"><%=value%></p>
+		<%end%>
+		<%= yield %>
+	</div><!--end content-->
+	<div id="footer">
+		&copy: Make it snappy Q&A <%=Date.today.year%>
+	</div><!--end footer-->
+</div><!--end container-->

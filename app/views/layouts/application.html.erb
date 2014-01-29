@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PracticeApp</title>
+  <title><% yield(:title)%></title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div id="container">
+<%= link_to "Home",wish_index_path ,id: "home" %>
 
 <%= yield %>
 <%= javascript_include_tag "application" %>
-<%= link_to "Home",wish_index_path ,id: "home" %>
+</div><!--end of container div tag-->
 
 </body>
 </html>
